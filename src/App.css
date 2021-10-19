@@ -1,0 +1,430 @@
+/* 
+Theme One: 
+
+BG: #121212.
+TEXT: WHITE
+Component: #57B560
+ON Hover: #458b4d
+
+
+Theme Two: 
+
+BG: white.
+TEXT: black
+Component: #31d2f2
+ON Hover: #0dcaf0
+
+Theme Three:
+
+LIGHT: #1D3A6C 
+DARK: #0B163E 
+Component: #0DCAF0
+
+
+Theme Four:
+
+LIGHT: #33363D 
+DARK: #1B1F22 
+Component: #BB86FC
+or
+Component: #02CFBB
+*/
+
+/* Custom Font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Default Set */
+/* Links Styling */
+
+.logo{
+  height: 35px;
+  width: 35px; 
+  margin-right: 5px;
+}
+
+.modeLink:hover {
+  color: #0dcaf0 !important;
+}
+.modeLink {
+  color: black;
+}
+
+
+/* Hamburger Icon Styling */
+.fa-bars-default {
+  color: #0dcaf0;
+}
+.navbar-toggler-default {
+  border-color: #0dcaf0 !important;
+}
+
+/* Text Area Styling*/
+
+.textAreaDefault:focus {
+  border: 0.5px solid #31d2f2 !important;
+}
+.textAreaDefault {
+  background-color: white;
+  color: black;
+}
+
+/* Style Previw (Summary) Styling */
+.textStyling {
+  font-size: small;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.defaultStylePrev {
+  color: #31d2f2;
+}
+
+/* About Page Styling */
+.aboutPageHeadingDefault{
+  color: #0dcaf0;
+}
+
+.aboutTextUtilsHead {
+  margin: 5px;
+  letter-spacing: 1px;
+}
+.aboutTextUtilsBody {
+  font-size: larger;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.aboutContainer {
+  position: relative;
+  top: 100px;
+}
+
+/* Themes Styling */
+
+.themePalate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.themeOne,
+.themeTwo,
+.themeThree,
+.themeFour {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.themeOneColorOne,
+.themeOneColorTwo,
+.themeTwoColorOne,
+.themeTwoColorTwo,
+.themeThreeColorOne,
+.themeThreeColorTwo,
+.themeFourColorOne,
+.themeFourColorTwo {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 0.5px solid white;
+  cursor: pointer;
+}
+
+.themeOneColorOne,
+.themeTwoColorOne,
+.themeThreeColorOne,
+.themeFourColorOne {
+  position: relative;
+  left: 12px;
+}
+
+/* Theme One */
+.themeOneColorOne {
+  background-color: #121212;
+}
+.themeOneColorTwo {
+  background-color: #57b560;
+}
+
+/* Theme Two */
+.themeTwoColorOne {
+  background-color: #0b163e;
+}
+.themeTwoColorTwo {
+  background-color: #0dcaf0;
+}
+
+/* Theme Three */
+.themeThreeColorOne {
+  background-color: #1b1f22;
+}
+.themeThreeColorTwo {
+  background-color: #bb86fc;
+}
+
+/* Theme Four */
+.themeFourColorOne {
+  background-color: rgba(202, 202, 202, 0.781);
+}
+.themeFourColorTwo {
+  background-color: #0dcaf0;
+}
+
+/* Theme One Styling */
+/* Button Styling */
+.modeButtonOne:hover,
+.modeButtonOne:focus {
+  background-color: #458b4d;
+  color: white;
+}
+.modeButtonOne {
+  background-color: #57b560;
+  color: white;
+  border: none;
+}
+.modeLinkOne:hover {
+  color: #57b560 !important;
+}
+.modeLinkOne {
+  color: white;
+}
+
+/* Style Previw (Summary) Styling Dark*/
+.stylePreviewCharactersOne {
+  color: #57b560;
+  font-size: small;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Text Area Styling */
+.textAreaOne:focus {
+  border: 0.5px solid #57b560 !important;
+  background-color: #121212;
+  color: white;
+}
+
+.textAreaOne {
+  background-color: #121212;
+  color: white;
+}
+
+.modeTextOne {
+  color: white;
+}
+
+/* About Container Styling */
+.aboutContainerOne {
+  background-color: #121212;
+  color: white;
+}
+/* Navbar */
+/* Hamburger Icon Styling */
+.fa-bars-One {
+  color: #57b560;
+}
+
+.navbar-toggler-One {
+  border-color: #57b560 !important;
+}
+
+/* Theme Two Styling */
+/* Button Styling */
+.modeButtonTwo:hover,
+.modeButtonTwo:focus {
+  background-color: #0cb6d8;
+  color: white;
+}
+.modeButtonTwo {
+  background-color: #0dcaf0;
+  color: white;
+  border: none;
+}
+.modeLinkTwo:hover {
+  color: #0dcaf0 !important;
+}
+.modeLinkTwo {
+  color: white;
+}
+
+/* Style Previw (Summary) Styling Dark*/
+.stylePreviewCharactersTwo {
+  color: #0dcaf0;
+  font-size: small;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Text Area Styling Dark*/
+.textAreaTwo:focus {
+  border: 0.5px solid #0dcaf0 !important;
+  background-color: #0b163e;
+  color: white;
+}
+
+.textAreaTwo {
+  background-color: #0b163e;
+  color: white;
+}
+
+.modeTextTwo {
+  color: white;
+}
+
+/* About Container Styling */
+.aboutContainerTwo {
+  background-color: #0b163e;
+  color: white;
+}
+/* Navbar */
+/* Hamburger Icon Styling */
+.fa-bars-Two {
+  color: #0dcaf0;
+}
+
+.navbar-toggler-Two {
+  border-color: #0dcaf0 !important;
+}
+
+/* Theme Three Styling */
+/* Button Styling */
+.modeButtonThree:hover,
+.modeButtonThree:focus {
+  background-color: #9c72cf;
+  color: white;
+}
+.modeButtonThree {
+  background-color: #bb86fc;
+  color: white;
+  border: none;
+}
+.modeLinkThree:hover {
+  color: #bb86fc !important;
+}
+.modeLinkThree {
+  color: white;
+}
+
+/* Style Previw (Summary) Styling */
+.stylePreviewCharactersThree {
+  color: #bb86fc;
+  font-size: small;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Text Area Styling */
+.textAreaThree:focus {
+  border: 0.5px solid #bb86fc !important;
+  background-color: #1b1f22;
+  color: white;
+}
+
+.textAreaThree {
+  background-color: #1b1f22;
+  color: white;
+}
+
+.modeTextThree {
+  color: white;
+}
+
+/* About Container Styling */
+.aboutContainerThree {
+  background-color: #1b1f22;
+  color: white;
+}
+/* Navbar */
+/* Hamburger Icon Styling */
+.fa-bars-Three {
+  color: #bb86fc;
+}
+
+.navbar-toggler-Three {
+  border-color: #bb86fc !important;
+}
+
+/* Theme Four */
+/* Button Styling */
+.modeButtonFour:hover,
+.modeButtonFour:focus {
+  background-color: #10f7ff;
+  color: black;
+}
+.modeButtonFour {
+  background-color: #0dcaf0;
+  color: black;
+  border: none;
+}
+.modeLinkFour:hover {
+  color: #0dcaf0 !important;
+}
+.modeLinkFour {
+  color: black;
+}
+
+/* Style Previw (Summary) Styling */
+.stylePreviewCharactersFour {
+  color: #0dcaf0;
+  font-size: small;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+/* Text Area Styling Dark*/
+.textAreaFour:focus {
+  border: 0.5px solid #0dcaf0 !important;
+  background-color: white;
+  color: black;
+}
+
+.textAreaFour {
+  background-color: white;
+  color: black;
+}
+
+.modeTextFour {
+  color: black;
+}
+
+/* About Container Styling */
+.aboutContainerFour {
+  background-color: white;
+  color: black;
+}
+/* Navbar */
+/* Hamburger Icon Styling */
+.fa-bars-Four {
+  color: #0dcaf0;
+}
+
+.navbar-toggler-Four {
+  border-color: #0dcaf0 !important;
+}
+
+/* About Page Heading Style */
+.aboutPageOne {
+  color: #57b560;
+}
+.aboutPageTwo {
+  color: #0dcaf0;
+}
+.aboutPageThree {
+  color: #bb86fc;
+}
+.aboutPageFour {
+  color: #0dcaf0;
+}
